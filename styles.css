@@ -158,10 +158,13 @@ nav{
 .container{
     padding-top:20px;
     padding-bottom: 20px;
-    padding-left: 17%;
+    padding-left: 7%;
     padding-right: 2%;
 }
 
+.small-container{
+    padding-left: 17%;
+}
 .container .banner{
     width: 100%;
 }

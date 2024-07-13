@@ -211,3 +211,70 @@ nav{
     display: block;
     margin-bottom: 5px;
 }
+
+@media (max-width: 900px){
+    .menu-icon , .sidebar, .small-sidebar {
+        display: none;
+    }
+    .nav-left img.logo{
+        width: 70px;
+    }
+    .container , .small-container {
+        padding-left: 5%;
+        padding-right: 5%;
+    }
+    .nav-right img{
+        display: none;        
+    }
+    .nav-right img.user-icon{
+        display: block;
+        width: 30px;
+      
+        
+    }
+
+    .nav-middle img.mic-icon{
+        display: none;
+    }
+
+    .nav-middle .search-box input{
+        width: 100px;
+    }
+
+
+}
+
+
+ /*---------------------------*/
+
+ .play-container{
+    padding-left: 2%;
+}
+
+.row{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.play-video{
+    flex-basis: 69%;
+}
+.right-sidebar{
+    flex-basis: 30%;
+}
+.play-video video{
+    width: 100%;
+}
+
+.right-sidebar .side-video-list{
+    width: 90%;
+    display: flex;
+    justify-content: space-between;
+    margin-top: 13px;
+}
+.side-video-list .thumbnail{
+    width: 100px;
+    border-radius: 5%;
+    margin-right: 10px;
+}

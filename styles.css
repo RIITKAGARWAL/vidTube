@@ -304,6 +304,9 @@ nav{
     width: 20px;
     margin-right: 8px;
 }
+.play-video .play-video-info img:hover{
+    scale: 150%;
+}
 
 .play-video .play-video-info a{
     display: inline-flex;
@@ -311,3 +314,152 @@ nav{
     margin-left: 15px;
 }
 
+.play-video hr{
+    border: 0;
+    background: #ccc;
+    height:1px;
+    margin: 10px 0;
+}
+.publisher{
+    margin-top: 20px;
+    display: flex;
+    align-items: center;
+}
+.publisher div{
+    flex: 1;
+    line-height: 18px;
+    margin-left:10px;
+}
+
+.publisher img{
+    width: 40px;
+    border-radius: 50%;
+   
+}
+
+.publisher div p{
+    font-weight: 600;
+    color: #000;
+    font-size: 18px;
+}
+.publisher div span{
+    color: #5a5a5a;
+    font-size: 13px;
+}
+
+.publisher button{
+    background: red;
+    color: #fff;
+    padding: 10px 20px;
+    border-radius: 20%;
+    border: 0;
+    outline: 0;
+    cursor: pointer;
+}
+.publisher button:hover{
+    scale: 110%;
+}
+
+.vid-description{
+    padding-left: 50px;
+    margin: 15px 0;
+}
+
+.vid-description p{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-bottom: 5px;
+}
+
+.vid-description h4{
+    font-size: 14px;
+    color: #5a5a5a;
+    margin-top: 15px;
+}
+
+.addcomments{
+    display: flex;
+    align-items: center;
+    margin: 30px 0;
+}
+
+.addcomments img{
+    border-radius: 50%;
+    width: 30px;
+    margin-right: 15px;
+}
+
+.addcomments input{
+    width: 100%;
+    border: 0;
+    outline: 0;
+    border-bottom : 1px solid #ccc;
+    padding-top: 10px;
+    background: transparent;
+}
+
+.oldcomments{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    margin: 20px 0;
+
+}
+
+.oldcomments img{
+    width: 40px;
+    border-radius: 20%;
+    margin-right: 20px;
+}
+
+.oldcomments h3{
+    font-size: 14px;
+    
+    margin-top: 10px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.oldcomments h3 span{
+    font-size: 12px;
+    font-weight: 500;
+    color: #5a5a5a;
+}
+
+.comment-action{
+    display: flex;
+    align-items: center;
+    font-size: 14px;
+    margin: 8px 0;
+}
+.comment-action img{
+    width: 20px;
+    margin-right: 5px;
+}
+.comment-action span{
+    margin-right: 20px;
+    color: #5a5a5a;
+}
+
+.comment-action a{
+    color: #0000ff;
+}
+
+
+@media(max-width: 900px){
+.play-video,.right-sidebar{
+    flex-basis: 100%;
+}
+.play-container{
+    padding-left: 5%;
+}
+.vid-description{
+    padding-left: 0;
+}
+.play-video .play-video-info a{
+    margin-left: 0;
+    margin-top: 15px;
+    margin-right: 15px;
+}
+
+}

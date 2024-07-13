@@ -278,3 +278,36 @@ nav{
     border-radius: 5%;
     margin-right: 10px;
 }
+
+
+.play-video .tags a{
+    color: #0000ff;
+    font-size: 13px;
+}
+
+.play-video h3{
+    font-weight: 600;
+    font-size: 22px;
+}
+
+.play-video .play-video-info {
+    display: flex;
+    justify-content: space-between;
+    color: #5a5a5a;
+    font-size: 13px;
+    align-items: center;
+    margin-top: 10px;
+    flex-wrap: wrap;
+   
+}
+.play-video .play-video-info img{
+    width: 20px;
+    margin-right: 8px;
+}
+
+.play-video .play-video-info a{
+    display: inline-flex;
+    align-items: center;
+    margin-left: 15px;
+}
+
